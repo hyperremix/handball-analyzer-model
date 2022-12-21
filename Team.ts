@@ -9,5 +9,6 @@ export type Team = TeamMetadata & {
     draws: number;
     points: number;
     sevenMetersGoals: number;
+    concededGoals: number;
   };
 };
