@@ -1,4 +1,5 @@
 import { GameScore } from './GameScore';
+import { Referee } from './Referee';
 
 export type Game = {
   id: string;
@@ -9,4 +10,5 @@ export type Game = {
   awayTeamId: string;
   halftimeScore: GameScore;
   fulltimeScore: GameScore;
+  referees: Referee[];
 };
