@@ -1,6 +1,7 @@
 export * from './BaseGameEvent';
 export * from './Game';
 export * from './GameEvent';
+export * from './GameEventBlueCard';
 export * from './GameEventGoal';
 export * from './GameEventPenalty';
 export * from './GameEventRedCard';

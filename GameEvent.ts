@@ -1,3 +1,4 @@
+import { GameEventBlueCard } from './GameEventBlueCard';
 import { GameEventGoal } from './GameEventGoal';
 import { GameEventPenalty } from './GameEventPenalty';
 import { GameEventRedCard } from './GameEventRedCard';
@@ -11,4 +12,5 @@ export type GameEvent =
   | GameEventPenalty
   | GameEventTimeout
   | GameEventYellowCard
-  | GameEventRedCard;
+  | GameEventRedCard
+  | GameEventBlueCard;

@@ -7,4 +7,5 @@ export const gameEventIndicatorMap: Record<GameEventType, string> = {
   [GameEventType.Timeout]: 'Auszeit',
   [GameEventType.YellowCard]: 'Verwarnung für',
   [GameEventType.RedCard]: 'Disqualifikation für',
+  [GameEventType.BlueCard]: 'Disqualifikation mit Bericht für',
 };

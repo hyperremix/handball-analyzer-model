@@ -5,4 +5,5 @@ export enum GameEventType {
   Timeout = 'Timeout',
   YellowCard = 'YellowCard',
   RedCard = 'RedCard',
+  BlueCard = 'BlueCard',
 }
