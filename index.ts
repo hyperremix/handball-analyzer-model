@@ -17,3 +17,4 @@ export * from './Player';
 export * from './Referee';
 export * from './Team';
 export * from './TeamMetadata';
+export * from './TeamStatistics';
