@@ -1,9 +1,8 @@
-import { Player } from './Player';
+import { TeamMember } from './TeamMember';
 
 export type TeamMetadata = {
   id: string;
   leagueId: string;
   name: string;
-  coaches: string[];
-  players: Player[];
+  teamMembers: TeamMember[];
 };

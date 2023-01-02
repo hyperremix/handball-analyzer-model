@@ -1,5 +1,5 @@
 import { TeamMetadata } from '@model';
-import { PlayerBuilder } from './Player.builder';
+import { TeamMemberBuilder } from './TeamMember.builder';
 
 export class TeamMetadataBuilder {
   private model: TeamMetadata;
@@ -13,11 +13,10 @@ export class TeamMetadataBuilder {
       id: 'homeTeamId',
       leagueId: 'leagueId',
       name: 'name',
-      players: [
-        PlayerBuilder.new.build(),
-        PlayerBuilder.new.withId('id2').withNumber(2).withName('name2').build(),
+      teamMembers: [
+        TeamMemberBuilder.new.build(),
+        TeamMemberBuilder.new.withId('id2').withNumber('2').withName('name2').build(),
       ],
-      coaches: ['coach1', 'coach2'],
     };
   }
 
