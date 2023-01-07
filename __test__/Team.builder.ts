@@ -11,8 +11,9 @@ export class TeamBuilder {
 
   private constructor() {
     this.model = {
-      id: 'id',
+      id: 'homeTeamId',
       name: 'name',
+      shortName: 'shortName',
       teamMembers: [
         TeamMemberBuilder.new.build(),
         TeamMemberBuilder.new.withId('id2').withName('name2').withNumber('2').build(),
@@ -20,6 +21,11 @@ export class TeamBuilder {
       leagueId: 'leagueId',
       stats: TeamStatisticsBuilder.new.build(),
     };
+  }
+
+  withId(id: string): TeamBuilder {
+    this.model.id = id;
+    return this;
   }
 
   build(): Team {

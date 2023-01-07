@@ -3,5 +3,4 @@ export * from './GameEvent.builder';
 export * from './Referee.builder';
 export * from './Team.builder';
 export * from './TeamMember.builder';
-export * from './TeamMetadata.builder';
 export * from './TeamStatistics.builder';

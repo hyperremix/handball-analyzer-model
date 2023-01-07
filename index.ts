@@ -17,5 +17,4 @@ export * from './Referee';
 export * from './Team';
 export * from './TeamMember';
 export * from './TeamMemberType';
-export * from './TeamMetadata';
 export * from './TeamStatistics';
